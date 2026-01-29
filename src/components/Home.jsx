@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
 
+  const [data, setdata] = useState([])
+
   const navigate = useNavigate()
   return (
     <div>
